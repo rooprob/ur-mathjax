@@ -1,7 +1,7 @@
 ur-mathjax: an Ur/Web library for adding MathJax to your webpages
 =================================================================
 
-This is a library for adding [MathJax][] support to your [Ur/Web]
+This is a library for adding [MathJax][] support to your [Ur/Web][]
 programs.
 
 At its core, the library is extremely simple to use: you merely have
@@ -16,3 +16,6 @@ transaction unit` is provided.
 For an example of usage, see the file `t/testMathjax.ur`.
 
 Patches/bug reports welcome.
+
+[MathJax]: http://www.mathjax.org
+[Ur/Web]: http://www.impredicative.com/ur
