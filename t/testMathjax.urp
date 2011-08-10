@@ -1,0 +1,4 @@
+rewrite url TestMathjax/main
+library ../src/mathjax
+
+testMathjax

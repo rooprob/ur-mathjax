@@ -1,0 +1,8 @@
+allow mime text/javascript
+script /Mathjax/js
+script http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+ffi mathjaxFfi
+jsFunc MathjaxFfi.reload=mj_reload
+effectful MathjaxFfi.reload
+
+mathjax
